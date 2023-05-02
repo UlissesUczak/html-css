@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'Indie Flower', cursive;
+    text-align: right;
+}
+

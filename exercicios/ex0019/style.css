@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, rgb(38, 139, 197), rgba(131, 152, 184, 0.616));
+}
+
+h1#principal {
+    background-color: rgb(88, 94, 172);
+    color: rgb(0, 132, 255);
+    text-align: center;
+    
+
+}
+
+h1 {
+    background-color: rgb(88, 94, 172);
+    color: rgb(0, 132, 255);
+    text-align: center;
+}
+
+.basico {
+    color: rgb(80, 80, 185);
+}
+
+.intermediario {
+    color: rgb(0, 0, 255);
+}
+.avancado {
+    color: rgb(0, 0, 99);
+}
+
+.proximapagina {
+    color: blueviolet;
+    font-weight: bold;
+}

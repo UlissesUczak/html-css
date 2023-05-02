@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+
+<body>
+    <h1>Usando Links externos</h1>
+    <p>Você pode acessar o meu instagram clicando <a href="https://www.instagram.com">aqui</a></p>
+    <!--O método usado no comando acima fará com que abra o link na mesma aba-->
+    <p>Se quiser também pode acompanhar os meus vídeos pelo meu canal do youtube clicando <a
+            href="https://www.youtube.com" target="_blank" rel="external ">aqui</a>.</p>
+    <!--O método usado nessa linha acima fará com que abra o link em uma nova aba, é um método importante a ser usado quando se trata de um link que sairá do seu site, pois abrirá o link em nova guia e não sairá da sua página-->
+
+    <p>Para acessar a página de terceiros mas você não quer que o <abbr title="Search Engine Optimization">SEO</abbr>
+        detecte essa página de terceiros na página de buscas, utiliza-se o parametro <ins>nofollow</ins> dentro do link,
+        por exemplo, quero que vá para o Youtube, mas que não conste o youtube no mecanismo (O que não é aconselhado),
+        você pode acompanhar <a href="https://youtube.com" rel="nofollow">conforme segue</a>. </p>
+
+    <p>O que também determina um comando para os mecanismos de busca é utilizar o parametro <ins>prev</ins> utilizado
+        para retornar para a página anterior e não deixar o mecanismo de pesquisa tomar essa determinancia, segue
+        exemplo no link <a href="https://youtube.com" rel="prev">aqui</a> </p>
+
+    <p>Para utilizar o comando para ir para a pŕóxima página, usa-se o parametro <ins>next</ins> ainda dentro dos links,
+        conforme <a href="index.html" rel="next">segue</a></p>
+
+    <h1>Links para downloads</h1>
+
+    <ul>
+        <li><a href="./09 - Listas HTML.pdf" download="09 - Listas HTML.pdf" type="application/pdf">Baixar Livro em
+                PDF</a></li>
+        <li><a href="./09 - Listas HTML.zip" download=".09/ - Listas HTML.zip" type="application/zip" lang="pt-br">Livro compactado em ZIP</a></li>
+        <li><a href="#"></a></li>
+
+        <p>Para conferir a lista de media type a ser incluido é só verificar o site ihttps://www.iana.org/assignments/media-types/media-types.xhtml ou clicar <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">aqui</a></p>
+    </ul>
+
+
+
+
+
+</body>
+
+</html>

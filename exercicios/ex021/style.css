@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+nav {
+    text-align: center;
+    background-color: red;
+    padding: 50px;
+    margin: 0px;
+    outline: 100px;
+    box-shadow: 1px 1px 1px black;
+
+
+}
+
+body {
+    background-color: grey;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(18, 104, 37);
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    width: 100%;
+}
+
+.rodape {
+    color: white;
+
+}
+
+.gameinfo {
+    background-color: darkviolet;
+}
