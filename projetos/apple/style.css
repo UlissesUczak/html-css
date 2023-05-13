@@ -25,15 +25,16 @@ body {
     background-image: radial-gradient(rgb(201, 201, 201), rgb(126, 126, 126))
 }
     main {
-        background-color: white;
         margin: auto;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
+        background-color: white;
+        margin-top: 15px;
+       border-radius: 8px;
         padding: 15px;
         min-width: 320px;
         max-width: 800px;
         box-shadow: 0px 0px 10px grey;
         text-align: justify;
+        padding-top: 5px;
 }
 
 h2 {
@@ -73,8 +74,22 @@ footer>p {
     text-align: center;
 }
 
-img { 
-    display: block;
+footer {
+    height: 30px;
+    min-width: 320px;
+    max-width: 800px;
     margin: auto;
-    width: 100%;
+    text-align: center;
+}
+
+main img {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 68%;
+}
+
+ul {
+    columns: 2;
 }
