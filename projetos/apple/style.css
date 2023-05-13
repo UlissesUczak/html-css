@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+header {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    color: #323234;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold
+}
+
+header>p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+body {
+    background-image: radial-gradient(rgb(201, 201, 201), rgb(126, 126, 126))
+}
+
+main {
+    width: 800px;
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+}
+
+nav>a {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+
+nav>a:hover {
+    background-color: black;
+    color: white;
+    transition: linear 50ms;
+    transition-duration: 0.5s;
+    border: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
