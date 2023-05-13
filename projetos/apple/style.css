@@ -9,6 +9,10 @@ header {
     color: #323234;
 }
 
+.apple {
+    padding-bottom: 0px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold
@@ -25,10 +29,23 @@ body {
 }
 
 main {
-    width: 800px;
+    width: 825px;
     margin: auto;
     text-align: justify;
     background-color: white;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 nav>a {
@@ -48,4 +65,9 @@ nav>a:hover {
 a {
     text-decoration: none;
     color: white;
+}
+
+footer>p {
+    margin: auto;
+    text-align: center;
 }
