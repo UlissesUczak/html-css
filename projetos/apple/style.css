@@ -9,9 +9,6 @@ header {
     color: #323234;
 }
 
-.apple {
-    padding-bottom: 0px;
-}
 
 h1 {
     font-family: 'Roboto', sans-serif;
@@ -27,12 +24,16 @@ header>p {
 body {
     background-image: radial-gradient(rgb(201, 201, 201), rgb(126, 126, 126))
 }
-
-main {
-    width: 825px;
-    margin: auto;
-    text-align: justify;
-    background-color: white;
+    main {
+        background-color: white;
+        margin: auto;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        padding: 15px;
+        min-width: 320px;
+        max-width: 800px;
+        box-shadow: 0px 0px 10px grey;
+        text-align: justify;
 }
 
 h2 {
@@ -70,4 +71,10 @@ a {
 footer>p {
     margin: auto;
     text-align: center;
+}
+
+img { 
+    display: block;
+    margin: auto;
+    width: 100%;
 }
