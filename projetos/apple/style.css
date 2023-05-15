@@ -5,6 +5,10 @@ header {
     text-align: center;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     color: #323234;
 }
@@ -90,17 +94,40 @@ main img {
 
 ul {
     columns: 2;
-    margin: 0.5em;
+    margin: 3px;
 }
 
 footer {
     background-color: black;
     height: 50px;
     width:100%;
-    padding: initial;
+    padding: 0px;
     margin: auto;
     color: white;
     text-align: center;
 
 
-}  
+}
+
+aside>ul {
+    background-color: lightgray;
+    padding: 5px;
+    list-style-position: inside;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: 0px;
+}
+
+aside>h3 {
+    margin: 0px;
+    padding: 8px;
+    font-size: 15x;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: black;
+}
+
+p {
+    line-height: 2em;
+}
