@@ -1,29 +1,35 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
 
 :root {
-    --font1:var('Satisfy');
-    --font2:var('PTS');
+    --font1:Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Castoro Titling', cursive;
+    --font3:'Rancho', cursive;
 }
 
 h1 {
+    font-family: var(--font2);
     font-variant: small-caps;
     color: white;
     padding: 50px;
+    font-size: 3vw;
+
     
 }
 
 * {
     margin: 0px;
     padding: 0px;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--font1);
 
 
 }
@@ -47,6 +53,8 @@ header a:visited {
 }
 
 section {
+    font-family: 'Rancho', cursive;
+    font-size: 3vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
@@ -59,13 +67,36 @@ section {
 .imagem {
     background-color: darkslategrey;
     color: white;
+    box-shadow: inset 6px 6px px 13x 39px black;
+}
+
+section p {
+    padding-bottom: 1.5em;
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.281);
-    width: 300px;
+    background-color: rgba(0, 0, 0, 0.548);
+    display: inline-block;
+    padding: 10px;
 }
 
+p >abbr {
+    text-decoration: underline;
+}
+
+#img01 {
+    background-image: url(imagens/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#img02 {
+    background-image: url(imagens/3.jpg);
+    background-size: cover;
+
+
+}
 
 footer {
     background-color: black;
