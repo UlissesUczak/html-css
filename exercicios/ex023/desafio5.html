@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando colgroup</title>
+
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .cnome {
+            background-color: green;
+        }
+        .csexo {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+      
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Geraldo</td>
+            <td>45</td>
+            <td>Masculino</td>
+            <td>Dentista</td>
+        </tr>
+
+        <tr>
+            <td>Julia</td>
+            <td>23</td>
+            <td>Feminino</td>
+            <td>Atriz</td>
+        </tr>
+
+        <tr>
+            <td>Carla</td>
+            <td>35</td>
+            <td>Feminino</td>
+            <td>Escritora</td>
+        </tr>
+
+        <tr>
+            <td>Wesley</td>
+            <td>28</td>
+            <td>Masculino</td>
+            <td>Porteiro</td>
+        </tr>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="csexo" span="2">
+        </colgroup>
+    </table>
+
+
+
+
+
+
+</body>
+
+</html>
