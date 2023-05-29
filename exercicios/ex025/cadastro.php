@@ -1,0 +1,1 @@
+Seu cadastro foi concluido com exito, para mais informações, estude!
