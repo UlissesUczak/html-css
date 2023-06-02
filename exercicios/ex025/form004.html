@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 004</title>
+
+    <style>
+        fieldset {
+            border-style: dotted 2px black;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+<form action="cadastro.php" method="get" autocomplete="on">
+
+    <fieldset>
+        <legend>Endereço</legend>
+        <p>
+            <label for="icep">CEP:</label>
+            <input type="number" name="cep" id="icep" maxlength="8" required size="10" pattern="^[0-9]{5}-[0-9]{6}$" placeholder="00000-000">
+        </p>
+
+        <p>
+            <label for="irua">Rua:</label>
+            <input type="text" name="rua" id="irua">
+
+        </p>
+        <p>
+            <label for="ibairro">Bairro:</label>
+            <input type="text" name="bairro" id="ibairro">
+        </p>
+
+        <p>
+            <label for="icidade">Cidade:</label>
+            <input type="text" name="cidade" id="icidade">
+        </p>
+
+        <p>
+            <label for="iestado">Estado:</label>
+            <input type="text" name="estado" id="iestado">
+        </p>
+
+
+    </fieldset>
+
+    
+    <fieldset>
+        <legend>Dados para contato</legend>
+        
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" autocomplete="email">
+            </p>
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00)00000-0000" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+        
+        
+            </p>
+        
+    </fieldset>
+    
+</form>
+</body>
+</html>
