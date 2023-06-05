@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+menu {
+    display: none;
+}
+
+footer::after {
+    display: content;
+}
