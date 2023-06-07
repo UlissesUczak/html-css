@@ -3,7 +3,6 @@
 header {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkgrey;
-    height: 90px;
 }
 
 * {
@@ -17,14 +16,39 @@ h1 {
     margin-bottom: 30px;
 }
 
-nav a {
+#burguer {
+    display: block;
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+menu {
+    display: none;
+}
+
+
+menu a {
     background-color: rgb(83, 83, 83);
     color: white;
     border-radius: 2px;
     padding: 5px;
     margin: 2px;
+    display: block;
+    text-align: center;
 
 }
+
+menu a:hover {
+    background-color: grey;
+}
+
 
 body {
     background-color: lightgray;
@@ -44,6 +68,17 @@ main p, h2 {
     margin: 10px;
 }
 
+main p {
+    text-align: justify;
+}
+
 a {
     text-decoration: none;
+}
+
+img {
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    display: block;
 }
