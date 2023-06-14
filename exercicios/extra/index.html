@@ -1,37 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            display: block;
+            margin: auto;
+            text-align: center;
+
+
+        }
+
+        input {
+            margin: 2px;
+        }
+
+        
+    </style>
     <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
-    <main>
+  <body>
+    <h1>Calculadora do Juninho</h1>
+    <input type="number" name="numero1" id="numero1"><br>
+    <input type="number" name="numero2" id="numero2"><br>
+    <input type="button" value="Somar" onclick="somar()">
+    <input type="button" value="Subtrair" onclick="subtrair()">
+    <input type="button" value="Multiplicar" onclick="multiplicar()">
+    <input type="button" value="Dividir" onclick="dividir()">
 
-        <input type="number" name="numero" id="numero1">
+    <div id="res">Resultado</div>
 
-        <input type="number" name="numero" id="numero2">
+    <script>
+      function somar() {
+        var numb1 = window.document.getElementById('numero1')
+        var numb2 = window.document.querySelector('input#numero2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(numb1.value)
+        var n2 = Number(numb2.value)
+        var s = n1 + n2
+        res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+      }
 
-        <input type="button" class="botoes" value="+" onclick="calculate('+')">
-        <input type="button" class="botoes" value="-" onclick="calculate('-')">
-        <input type="button" class="botoes" value="*" onclick="calculate('*')">
-        <input type="button" class="botoes" value="/" onclick="calculate('/')">
+      function subtrair() {
+        var numb1 = window.document.getElementById('numero1')
+        var numb2 = window.document.querySelector('input#numero2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(numb1.value)
+        var n2 = Number(numb2.value)
+        var s = n1 - n2;
+        res.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+      }
 
-        <input type="text" id="result">
+      function multiplicar() {
+        var numb1 = window.document.getElementById('numero1')
+        var numb2 = window.document.querySelector('input#numero2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(numb1.value)
+        var n2 = Number(numb2.value)
+        var s = n1 * n2
+        res.innerHTML = `A multiplicação entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+      }
 
-        <output>
-        </output>
-
-
-
-    </main>
-
-</body>
-
+      function dividir() {
+        var numb1 = window.document.getElementById('numero1')
+        var numb2 = window.document.querySelector('input#numero2')
+        var res = window.document.getElementById('res')
+        var n1 = Number(numb1.value)
+        var n2 = Number(numb2.value)
+        var s = n1 / n2
+        res.innerHTML = `A divisão entre ${n1} e ${n2} é igual a <strong>${s}</strong>`
+      }
+    </script>
+  </body>
 </html>
