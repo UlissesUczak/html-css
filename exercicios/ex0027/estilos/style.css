@@ -60,7 +60,7 @@ main {
     background-color: black;
     color: white;
     border: 2px solid black;
-    width: 300px;
+    width: 250px;
     height: 300px;
 
     position: relative;
@@ -74,7 +74,7 @@ main {
     background-image: url(../imagem/logo.png);
     background-position: center center;
     border: 2px solid black;
-    width: 300px;
+    width: 250px;
     height: 300px;
 }
 
